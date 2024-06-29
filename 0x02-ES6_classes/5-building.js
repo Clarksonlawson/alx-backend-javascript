@@ -2,9 +2,6 @@
 
 export default class Building {
     constructor(sqft) {
-        if (new.target === Building) {
-            throw new Error("Cannot instantiate Building directly");
-        }
         this._sqft = sqft;
     }
 
