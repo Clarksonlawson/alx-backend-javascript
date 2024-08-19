@@ -4,12 +4,14 @@
  * @returns {void}
  */
 // Arrow function
-const displayMessage = (message) => process.stdout.write(message);
+const displayMessage = (message) => {
+    console.log(message);
+};
 
 /**
  * Exports the displayMessage function.
  * @module displayMessage
  * @function
  */
-// Default module export.
+// Default module export
 module.exports = displayMessage;
