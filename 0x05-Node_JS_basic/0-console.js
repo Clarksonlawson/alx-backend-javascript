@@ -1,9 +1,8 @@
 // 0-console.js
 
-// Function to print a string using STDOUT
-
-function displayMessage(helloMessage) {
-    process.stdout.write(helloMessage +'\n');    
+// Function to print a string to STDOUT
+function displayMessage(message) {
+    process.stdout.write(message + '\n');
 }
 
 // Export the function
