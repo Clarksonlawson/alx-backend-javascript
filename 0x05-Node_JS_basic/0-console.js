@@ -3,10 +3,10 @@
  * @param {string} message - The message to log.
  * @returns {void}
  */
-// Arrow function
-const displayMessage = (message) => {
-    process.stdout.write(message + '\n');
-};
+// function to show the message
+function displayMessage(message) {
+    console.log(message);
+}
 
 /**
  * Exports the displayMessage function.
